@@ -19,7 +19,7 @@ This box comes with everything you need to start using smart contracts from a re
 
 2. Download the box. This also takes care of installing the necessary dependencies.
     ```javascript
-    truffle unbox drizzle
+    truffle unbox dleonard00/dapp-starter
     ```
 
 3. Run the development blockchain, we recommend passing in a blocktime. Otherwise, its difficult to track things like loading indicators because Ganache will mine instantly.

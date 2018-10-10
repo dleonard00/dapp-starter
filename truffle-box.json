@@ -1,4 +1,5 @@
-  "ignore": [
+{
+    "ignore": [
     "box-img-lg.png",
     "box-img-sm.png"
   ],
