@@ -19,6 +19,8 @@ This box comes with everything you need to start using smart contracts from a re
 
 2. Download the box. This also takes care of installing the necessary dependencies.
     ```javascript
+    mkdir dapp-starter
+    cd dapp-starter
     truffle unbox dleonard00/dapp-starter
     ```
 
@@ -28,10 +30,11 @@ This box comes with everything you need to start using smart contracts from a re
     ganache-cli -b 3
     ```
 
-4. Compile and migrate the smart contracts. 
+4. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
     ```javascript
-    truffle compile
-    truffle migrate
+    truffle console
+    compile
+    migrate
     ```
 
 5. Run the webpack server for front-end hot reloading (outside the development console). Smart contract changes must be manually recompiled and migrated.
