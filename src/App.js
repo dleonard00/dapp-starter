@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Route } from 'react-router'
+import { Route, Router } from 'react-router-dom'
 import HomeContainer from './layouts/home/HomeContainer'
 
 

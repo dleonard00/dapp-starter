@@ -1,6 +1,7 @@
 import { connect } from 'react-redux'
 import LoginButton from './LoginButton'
 import { loginUser } from './LoginButtonActions'
+import { withRouter } from 'react-router-dom'
 
 const mapStateToProps = (state, ownProps) => {
   return {}
@@ -16,9 +17,9 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-const LoginButtonContainer = connect(
+const LoginButtonContainer = withRouter(connect(
   mapStateToProps,
   mapDispatchToProps
-)(LoginButton)
+)(LoginButton))
 
 export default LoginButtonContainer

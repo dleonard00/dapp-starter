@@ -1,7 +1,8 @@
 import createHistory from 'history/createBrowserHistory'
 import { createStore, applyMiddleware, compose } from 'redux'
 import thunkMiddleware from 'redux-thunk'
-import { routerMiddleware } from 'react-router-redux'
+// import { routerMiddleware } from 'react-router-redux'
+import { connectRouter, routerMiddleware } from 'connected-react-router'
 import reducer from './reducer'
 import rootSaga from './rootSaga'
 import createSagaMiddleware from 'redux-saga'
@@ -21,7 +22,7 @@ const initialState = {
 }
 
 const store = createStore(
-  reducer,
+  connectRouter(history)(reducer),
   initialState,
   composeEnhancers(
     applyMiddleware(

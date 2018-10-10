@@ -1,4 +1,4 @@
-import { browserHistory } from 'react-router'
+import { browserHistory } from 'react-router-dom'
 
 export const USER_LOGGED_OUT = 'USER_LOGGED_OUT'
 function userLoggedOut(user) {
