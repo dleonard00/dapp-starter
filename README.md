@@ -30,7 +30,7 @@ This box comes with everything you need to start using smart contracts from a re
     ganache-cli -b 3
     ```
 
-4. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
+4. Compile and migrate the smart contracts. Note inside the truffle development console we don't preface commands with `truffle`.
     ```javascript
     truffle console
     compile
