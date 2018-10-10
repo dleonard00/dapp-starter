@@ -39,6 +39,7 @@ This box comes with everything you need to start using smart contracts from a re
     // Serves the front-end on http://localhost:3000
     npm run start
     ```
+    > If you see an error message with the 🦊 fox. Ensure your metamask account is unlocked and you select `Localhost 8545` / `Private Network` as the network provider.
 
 6. Truffle can run tests written in Solidity or JavaScript against your smart contracts. Note the command varies slightly if you're in or outside of the development console.
     ```javascript
@@ -59,8 +60,6 @@ This box comes with everything you need to start using smart contracts from a re
     ```javascript
     npm run build
     ```
-> If you see an error message with the 🦊 fox. Ensure your metamask account is unlocked and you select `Localhost 8545` / `Private Network` as the network provider.
-
 
 ## Remote DevOps
 
