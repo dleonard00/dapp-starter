@@ -59,6 +59,8 @@ This box comes with everything you need to start using smart contracts from a re
     ```javascript
     npm run build
     ```
+> If you see an error message with the 🦊 fox. Ensure your metamask account is unlocked and you select `Localhost 8545` / `Private Network` as the network provider.
+
 
 ## Remote DevOps
 
